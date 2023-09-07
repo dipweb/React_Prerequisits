@@ -1,7 +1,9 @@
 # React_Prerequisits
 
-This is React pre requisites
+For better understanding of React Library, We need to understand below topics.
 
-# Arrow function
+# Inheritence and Prototype Change
 
--
+- JavaScript only has one construct: object. Each object has a private property which holds a link to another object called its **prototype**. That prototype object has a prototype of its own and so on untill an object is reached with null as its prototype. By definition, null has no prototype, and acts as the final link in this **prototype chain** .
+
+In javaScript the class model is also implemented over prototypal inheritence. Although classes are now widely adopted and have become new paradigm in JavaScript, classed do not bring a new inheritence pattern. While classes abstract most of the prototypical mechanism away.
