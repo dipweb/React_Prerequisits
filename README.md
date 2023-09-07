@@ -8,7 +8,8 @@ For better understanding of React Library, We need to understand below topics.
 
 In javaScript the class model is also implemented over prototypal inheritence. Although classes are now widely adopted and have become new paradigm in JavaScript, classed do not bring a new inheritence pattern. While classes abstract most of the prototypical mechanism away.
 
-```
+
+`
 const o = {
   a: 1,
   b: 2,
@@ -41,4 +42,4 @@ console.log(o.d); //undefined
 // o.[[Prototype]].[[Prototype]].[[Prototype]] is null, stop searching,
 // no property found, return undefined.
 
-```
+`
